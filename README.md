@@ -1,8 +1,8 @@
- Stock Analysis Challenge
+# Stocks Analysis Challenge
 
 ## Overview of Project 
 
-Steve's first client want to invest all their money in a green energy stocks called DAQO. Before they make any investment Steve want to analyze a handful of green energy stock data in addition to DAQO stocks, and  compare current financial statement to others stocks to give the investors a sense of whether DAQO is growing, stable, or deteriorating. In order to analyze the stocks data he need to know how often the stock is been traded.  This analysis included stocks name, total daily volume and the year return during 2017 and 2018. To perform this analysis we used Vision Basics for Application (VBA), a programing language that interacts directly with excel. Although the codes created in VBA work well it may not work well with a thousands of stock data and may take a long time to execute.
+Steve's first client want to invest all their money in a green energy stocks called DAQO. Before they make any investment Steve want to analyze a handful of green energy stock data in addition to DAQO stocks, and  compare current financial statement to others stocks to give the investors a sense of whether DAQO stocks are growing, stable, or deteriorating. Before Steve make a recommendation, he need to know how often the stock is been traded. To perform this analysis we used Vision Basics for Application (VBA), a programing language that interacts directly with excel. This analysis included the stocks name, total daily volume and the return during 2017 and 2018. Although the codes created in VBA work well it may not work well with a thousands of stock data and it may take a long time to execute.
 
 ### Purpose
 
@@ -11,11 +11,14 @@ The purpose of this project is to edit, or refactor the existing All Stocks Anal
 
 ## Results
 
-![Stock Analysis Refactor](images/ScreenShot2022-08-23at7.50.25PM.png)
+> *All Stocks Analysis Refactored VBA Codes*
+
+![Screen Shot 2022-08-23 at 7 50 25 PM](https://user-images.githubusercontent.com/110786136/186437641-a204dadc-99f0-441a-8906-819716fdc2f7.png)
+
 
 ### Codes Performance
 
-Refactoring the Original Script we were able to;
+When we refactored the Original Script we were able to;
 
 - Eliminate useless code, reduce that amount of code use in the script.
 
@@ -27,37 +30,41 @@ Refactoring the Original Script we were able to;
 
 - Eliminated nest loop. 
 
-- Refactoring structure improve consistent indentation, thus the refactoring script look more clean.
+- Improve consistent indentation, thus the refactored script look more clean.
 
 
-### Compare Stock performance 
+### Compare Stocks performance 
 
-![Stock Analysis 2017 and 2018](/Users/ninotshkacruz/Desktop/ScreenShot2022-08-23at7.32.59PM.png)
+> *Stocks Analysis 2017 and 2018*
+
+![Screen Shot 2022-08-23 at 7 32 59 PM](https://user-images.githubusercontent.com/110786136/186449499-13425354-d183-4f4a-9f00-e45c8483a3b8.png)
 
 To perform this valuation we analyze the financial performance of twelve green energy stock during 2017 and 2018. We calculate the total volume and return for each year. Using the data in Worksheet All Stock Analysis we can visualize the following;
 
-Stocks 2017 -  11 out of 12 tickers had a positive year return with a high total volume.
+Stocks 2017 -  11 out of 12 tickers had a positive return with a high total volume.
 
-Stocks 2018- 10 out of 12 tickers had a negative year return with a high total volume.
+Stocks 2018- 10 out of 12 tickers had a negative return with a high total volume.
 
-Only ENPH and RUN tickers have a high volume total and a positive return for 2017 and 2018 period. We think ENPH and Run represent a low risk investment due to their patterns of large number of outstanding shares,  active stocks and yearly return. Investing in ENPH and RUN stock may offer several benefits, including the potential to earn dividends or an average annualized return.
+Only ENPH and RUN tickers have a high volume total and a positive return for 2017 and 2018 period. We think ENPH and Run represent a low risk investment due to their patterns of large number of outstanding shares,  active stocks and returns. Investing in ENPH and RUN stock may offer several benefits, including the potential to earn dividends or an average annualized return.
 
 
 ### Execution times between Original Script and the Refactored script
 
-![Stock 2017, Original Script vs Refactored Script](/Users/ninotshkacruz/Desktop/Challenge 2/Screen Shot 2022-08-23 at 7.06.53 PM.png)
-2017 Refactored Script code run 0.2421875 less than Original Script, therefore Refactoring code run faster than the Original Script
+> *2017 Refactored Script code ran 0.2421875 less seconds than Original Script, therefore refactored codes run faster than the original script*
+
+![Screen Shot 2022-08-23 at 7 06 53 PM](https://user-images.githubusercontent.com/110786136/186449834-0958c74b-cf3f-4c44-8c45-c29b3a874c03.png)
 
 
-![Stock 2018, Original Script vs Refactored Script](/Users/ninotshkacruz/Desktop/Challenge 2/Screen Shot 2022-08-23 at 7.08.23 PM.png)
-2017 Refactored Script code run 0.234375 less than Original Script, therefore Refactoring code run faster than the Original Script
 
+> *2018 Refactored Script code ran 0.234375 less seconds than Original Script, therefore refactored codes run faster than the original script*
+
+![Screen Shot 2022-08-23 at 7 08 23 PM](https://user-images.githubusercontent.com/110786136/186449961-76a1fde3-fb96-4b17-8b48-2443a5d31107.png)
 
 ## Summary
 
-1. What are the advantage and disadvantages of refactoring code?
+### What are the advantages and disadvantages of refactoring code?
 
-### Advantage 
+#### *Advantages* 
 
 - Improve the design of exiting code
 
@@ -67,7 +74,7 @@ Only ENPH and RUN tickers have a high volume total and a positive return for 201
 
 - Clean code with shorter, self contained methods and classes is is characterized by better testability
 
-### Disadvantage  
+#### *Disadvantages*  
 
 - Imprecise refactoring could introduce new bugs end errors into the code.
 
@@ -78,9 +85,9 @@ Only ENPH and RUN tickers have a high volume total and a positive return for 201
 - May take a long time to complete the process.
 
 
-2. How do these pros and cons apply to refactoring the original VBA?
+### How do these pros and cons apply to refactoring the original VBA?
 
-### Pro 
+#### *Pros*
 
 - Refactoring improve the design of the existing code, the refactored script have more consistent indentation and avoid nesting loops. 
 
@@ -92,7 +99,7 @@ Only ENPH and RUN tickers have a high volume total and a positive return for 201
 
 - Having a good understanding of the original script avoid the risk of failure during refactoring.
 
-### Con
+#### *Cons*
 
 - Inexperience led to create several imprecise codes and introduce several error during the process of refactoring.
 
