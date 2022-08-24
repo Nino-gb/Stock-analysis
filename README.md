@@ -11,7 +11,7 @@ The purpose of this project is to edit, or refactor the existing All Stocks Anal
 
 ## Results
 
-![Stock Analysis Refactor](/Screen Shot 2022-08-23 at 7.50.25 PM.png)
+![Stock Analysis Refactor](images/Screen Shot 2022-08-23 at 7.50.25 PM.png)
 
 ### Codes Performance
 
