@@ -32,7 +32,7 @@ Refactoring the Original Script we were able to;
 
 ### Compare Stock performance 
 
-![Stock Analysis 2017 and 2018](/Users/ninotshkacruz/Desktop/Screen Shot 2022-08-23 at 7.32.59 PM.png)
+![Stock Analysis 2017 and 2018](/Users/ninotshkacruz/Desktop/ScreenShot2022-08-23at7.32.59PM.png)
 
 To perform this valuation we analyze the financial performance of twelve green energy stock during 2017 and 2018. We calculate the total volume and return for each year. Using the data in Worksheet All Stock Analysis we can visualize the following;
 
